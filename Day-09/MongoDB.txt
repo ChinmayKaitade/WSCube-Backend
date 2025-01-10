@@ -1,0 +1,39 @@
+Structure for MongoDB ✅
+- Connection 
+    - Database
+        - Collections
+            - Documents (values)
+
+
+Commands for MongoDB ✅
+- show dbs || show databases 
+- use "Database Name"
+
+
+- show Collections
+- db.createCollection("Collection Name")
+- db."Collection Name Old".renameCollection("Collection New Name")
+- db."Collection Name".drop()
+
+
+- db.dropDatabase()
+
+
+- db."Collection Name".insertOne({})
+- db."Collection Name".insertMany({})
+
+
+- db."Collection Name".find()
+- db."Collection Name".find({ category: "News" })
+- db."Collection Name".find({}, { title:1, data:1 })
+
+
+- db."Collection Name".updateOne({}, { $set:{} })
+- db."Collection Name".updateMany({}, { $set:{} })
+- db."Collection Name".updateMany({}, { $inc:{} })
+
+
+- db."Collection Name".deleteOne({})
+- db."Collection Name".deleteMany({})
+
+
